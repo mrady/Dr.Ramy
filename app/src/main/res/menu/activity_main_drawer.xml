@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/ic_stethoscope"
+            android:title="@string/nav_services" />
+        <item
+            android:id="@+id/nav_reservation"
+            android:icon="@drawable/ic_reservation"
+            android:title="@string/nav_reservation" />
+        <item
+            android:id="@+id/nav_calories"
+            android:icon="@drawable/ic_calories"
+            android:title="@string/nav_calories" />
+
+        <item
+            android:id="@+id/nav_post"
+            android:icon="@drawable/ic_post"
+            android:title="@string/nav_post" />
+        <item
+            android:id="@+id/nav_contact_us"
+            android:icon="@drawable/ic_contact_us"
+            android:title="@string/nav_contact_us" />
+    </group>
+
+</menu>

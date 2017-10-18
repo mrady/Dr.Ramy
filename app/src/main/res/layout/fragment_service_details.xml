@@ -1,0 +1,195 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    tools:context="ramymichealcenter.patient.viewcontroller.ServiceDetailsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/colorLable"
+                android:textSize="@dimen/_12sdp"
+                android:text="@string/tv_service_details_fragment__service_name" />
+
+            <TextView
+                android:id="@+id/tv_service_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_11sdp"
+                android:text="TextView " />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp"
+                android:textColor="@color/colorLable"
+                android:textSize="@dimen/_12sdp"
+                android:text="@string/tv_service_details_fragment__service_description" />
+
+            <TextView
+                android:id="@+id/tv_service_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_11sdp"
+                android:text="TextView " />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_sa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/radiobtn_bck"
+                android:button="@null"
+                android:clickable="false"
+                android:gravity="center"
+                android:text="@string/tv_calendar_day_saturday" />
+
+            <CheckBox
+                android:id="@+id/cb_su"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/radiobtn_bck"
+                android:button="@null"
+                android:clickable="false"
+                android:gravity="center"
+                android:text="@string/tv_calendar_day_sunday" />
+
+            <CheckBox
+                android:id="@+id/cb_mo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/radiobtn_bck"
+                android:button="@null"
+                android:clickable="false"
+                android:gravity="center"
+                android:text="@string/tv_calendar_day_monday" />
+
+            <CheckBox
+                android:id="@+id/cb_tu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/radiobtn_bck"
+                android:button="@null"
+                android:clickable="false"
+                android:gravity="center"
+                android:text="@string/tv_calendar_day_tuesday" />
+
+            <CheckBox
+                android:id="@+id/cb_we"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/radiobtn_bck"
+                android:button="@null"
+                android:clickable="false"
+                android:gravity="center"
+                android:text="@string/tv_calendar_day_wednesday" />
+
+            <CheckBox
+                android:id="@+id/cb_th"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/radiobtn_bck"
+                android:button="@null"
+                android:clickable="false"
+                android:gravity="center"
+                android:text="@string/tv_calendar_day_thursday" />
+
+            <CheckBox
+                android:id="@+id/cb_fr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/radiobtn_bck"
+                android:button="@null"
+                android:clickable="false"
+                android:gravity="center"
+                android:text="@string/tv_calendar_day_friday" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@color/colorDate_bg"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_current_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:horizontalSpacing="2dp"
+            android:numColumns="4"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="2dp" />
+
+        <TextView
+            android:id="@+id/tv_hint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:gravity="center"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

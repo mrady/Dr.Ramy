@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="gender">
+        <item>النوع</item>
+        <item>ذكر</item>
+        <item>انثي</item>
+    </string-array>
+
+    <string-array name="age_range">
+        <item>الفئة العمرية</item>
+        <item>10-17</item>
+        <item>18-29</item>
+        <item>30-59</item>
+        <item>60-74</item>
+        <item>75+</item>
+    </string-array>
+
+    <string-array name="pal">
+        <item>مستوى النشاط</item>
+        <item>بدون حركة</item>
+        <item>حركة خفيفة</item>
+        <item>حركة متوسطه</item>
+        <item>حركة كثيرة</item>
+        <item>حركة طول اليوم</item>
+    </string-array>
+
+</resources>

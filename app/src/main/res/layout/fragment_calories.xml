@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:padding="@dimen/_15sdp"
+    tools:context="ramymichealcenter.patient.viewcontroller.CaloriesFragment">
+
+
+    <TextView
+        android:id="@+id/tv_calories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/_30sdp"/>
+    <Spinner
+        android:id="@+id/sp_gender"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/gender"
+        android:padding="@dimen/_10sdp" />
+
+    <Spinner
+        android:id="@+id/sp_age_range"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/age_range"
+        android:padding="@dimen/_10sdp" />
+
+    <EditText
+        android:id="@+id/et_weight_kg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_hint_weight_kg"
+        android:inputType="number"
+        android:padding="@dimen/_10sdp" />
+
+    <Spinner
+        android:id="@+id/sp_palevel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/pal"
+        android:padding="@dimen/_10sdp" />
+
+    <Button
+        android:id="@+id/btn_calculate_calories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="@string/calculate"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold" />
+
+</LinearLayout>

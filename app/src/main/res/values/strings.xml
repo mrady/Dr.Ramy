@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Dr Ramy Micheal Center</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="hello_home_fragment">Hello Home Fragment</string>
+    <string name="hello_services_fragment">Hello Services Fragment</string>
+    <string name="hello_reservation_fragment">Hello Reservation Fragment</string>
+    <string name="hello_contact_us_fragment">Hello Contact Us Fragment</string>
+
+    <string name="error_network_connection">Please Check Your Internet Connection</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--<string name="activity_home">Home</string>-->
+    <!--<string name="activity_reservation">Reservation</string>-->
+    <!--<string name="activity_service_details">Service Details</string>-->
+    <!--<string name="activity_services">Services</string>-->
+    <!--<string name="activity_contact_us">Contact Us</string>-->
+    <!--<string name="activity_book_now">Book Now</string>-->
+
+    <!--<string name="nav_contact_us">Contact Us</string>-->
+    <!--<string name="nav_reservation">Reservation</string>-->
+    <!--<string name="nav_services">Services</string>-->
+    <!--<string name="nav_home">Home</string>-->
+
+    <!--<string name="tv_service_details_fragment__service_name">Service Name</string>-->
+    <!--<string name="tv_service_details_fragment__service_description">Service Description</string>-->
+    <!--<string name="tv_service_details_fragment__allow_booking">Contact us to Make an Appointment with a Doctor</string>-->
+    <!--<string name="tv_service_details_fragment__available_appointment">No Available Appointment Today</string>-->
+
+    <!--<string name="tv_calendar_day_saturday">Sa</string>-->
+    <!--<string name="tv_calendar_day_sunday">Su</string>-->
+    <!--<string name="tv_calendar_day_monday">Mo</string>-->
+    <!--<string name="tv_calendar_day_tuesday">Tu</string>-->
+    <!--<string name="tv_calendar_day_wednesday">We</string>-->
+    <!--<string name="tv_calendar_day_thursday">Th</string>-->
+    <!--<string name="tv_calendar_day_friday">Fr</string>-->
+
+    <string name="activity_home">الرئيسيه</string>
+    <string name="activity_reservation">الحجز</string>
+    <string name="activity_service_details">تفاصيل الخدمة</string>
+    <string name="activity_services">الخدمات</string>
+    <string name="activity_contact_us">تواصل معنا</string>
+    <string name="activity_book_now">احجز الان</string>
+    <string name="activity_post">معلومات</string>
+    <string name="activity_calories">السعرات الحرارية اليومية</string>
+
+    <string name="nav_contact_us">تواصل معنا</string>
+    <string name="nav_reservation">الحجز</string>
+    <string name="nav_services">الخدمات</string>
+    <string name="nav_home">الرئيسيه</string>
+    <string name="nav_post">معلومات</string>
+    <string name="nav_calories">السعرات الحرارية اليومية</string>
+
+
+    <string name="tv_service_details_fragment__service_name">اسم الخدمه:</string>
+    <string name="tv_service_details_fragment__service_description">تفاصيل الخدمه:</string>
+    <string name="tv_service_details_fragment__allow_booking">اتصل بنا لحجز موعد مع طبيب</string>
+    <string name="tv_service_details_fragment__available_appointment">لا يوجد مواعيد متاحة اليوم</string>
+
+    <string name="tv_calendar_day_saturday">س</string>
+    <string name="tv_calendar_day_sunday">ح</string>
+    <string name="tv_calendar_day_monday">ن</string>
+    <string name="tv_calendar_day_tuesday">ث</string>
+    <string name="tv_calendar_day_wednesday">ر</string>
+    <string name="tv_calendar_day_thursday">خ</string>
+    <string name="tv_calendar_day_friday">ج</string>
+
+    <string name="et_hint_weight_kg">الوزن كجم</string>
+
+
+    <string name="tv_contact_us_fragment__phone">رقم العيادة</string>
+    <string name="tv_contact_us_fragment__address">عنوان العيادة</string>
+    <string name="tv_contact_us_fragment__facebook">فيسبوك</string>
+    <string name="tv_contact_us_fragment__twitter">تويتر</string>
+    <string name="tv_contact_us_fragment__instagram">انستجرام</string>
+
+    <string name="tv_reservation_fragment__select_service">اختر خدمه</string>
+
+    <string name="calculate">حساب السعرات الحرارية اليومية</string>
+
+
+</resources>

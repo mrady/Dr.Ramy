@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "279577559417",
+    "firebase_url": "https://ramymichealcenter.firebaseio.com",
+    "project_id": "ramymichealcenter",
+    "storage_bucket": "ramymichealcenter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279577559417:android:759d3a7e2196fdd0",
+        "android_client_info": {
+          "package_name": "ramymichealcenter.patient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279577559417-9841emh18fqhfboho7f2tdj2rsa3n1pt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ramymichealcenter.patient",
+            "certificate_hash": "b04917a10e71c271a3c33bceeb1a9ad6eee332f9"
+          }
+        },
+        {
+          "client_id": "279577559417-ad8q31ipnoon5hs6032dgijo29eelidl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRRHqVeAy_LDiqshdrd8SQMHiJ77hj_bw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279577559417-ad8q31ipnoon5hs6032dgijo29eelidl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
